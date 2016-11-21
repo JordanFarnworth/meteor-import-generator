@@ -45,6 +45,6 @@ exports.importGenerator = function importGenerator(fileName) {
     }
     throw 'filename not recognized';
   };
-  // return the require esModul
-  return require(paths[decryptFile(fileName)] + fileName);
+  // return the string to pass to require
+  return paths[decryptFile(fileName)] + fileName
 };

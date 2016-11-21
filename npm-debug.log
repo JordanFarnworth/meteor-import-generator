@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node',
+1 verbose cli   '/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'meteor-import-generator',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.9
+3 info using node@v4.6.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData meteor-import-generator
+8 silly fetchNamedPackageData meteor-import-generator
+9 silly mapToRegistry name meteor-import-generator
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'meteor-import-generator',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'meteor-import-generator',
+12 silly mapToRegistry   name: 'meteor-import-generator',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/meteor-import-generator
+14 verbose request uri https://registry.npmjs.org/meteor-import-generator
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:25:21 PM
+17 verbose request using bearer token for auth
+18 verbose request id ce2de5c4193c769b
+19 verbose etag W/"583282c6-7e7"
+20 verbose lastModified Mon, 21 Nov 2016 05:14:46 GMT
+21 http request GET https://registry.npmjs.org/meteor-import-generator
+22 http 304 https://registry.npmjs.org/meteor-import-generator
+23 verbose headers { server: 'nginx/1.10.1',
+23 verbose headers   'last-modified': 'Mon, 21 Nov 2016 05:14:46 GMT',
+23 verbose headers   etag: '"583282c6-7e7"',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Mon, 21 Nov 2016 05:25:21 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-den6024-DEN',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1479705921.812935,VS0,VE52',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 304,
+24 silly get   { server: 'nginx/1.10.1',
+24 silly get     'last-modified': 'Mon, 21 Nov 2016 05:14:46 GMT',
+24 silly get     etag: '"583282c6-7e7"',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Mon, 21 Nov 2016 05:25:21 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-den6024-DEN',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1479705921.812935,VS0,VE52',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose etag https://registry.npmjs.org/meteor-import-generator from cache
+26 verbose get saving meteor-import-generator to /Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/.npm/registry.npmjs.org/meteor-import-generator/.cache.json
+27 verbose correctMkdir /Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/.npm correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly rollbackFailedOptional Starting
+41 silly rollbackFailedOptional Finishing
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 verbose stack Error: Refusing to install meteor-import-generator as a dependency of itself
+44 verbose stack     at checkSelf (/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+44 verbose stack     at Array.<anonymous> (/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+44 verbose stack     at LOOP (/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+44 verbose stack     at chain (/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+44 verbose stack     at /Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/lib/install/validate-args.js:16:5
+44 verbose stack     at /Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at /Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+44 verbose stack     at Array.forEach (native)
+44 verbose stack     at asyncMap (/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+45 verbose cwd /Users/jordanfarnworth/Projects/meteor-import-generator
+46 error Darwin 15.6.0
+47 error argv "/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node" "/Users/jordanfarnworth/.meteor/packages/meteor-tool/.1.4.2_3.1rd9djy++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm" "i" "meteor-import-generator" "--save"
+48 error node v4.6.2
+49 error npm  v3.10.9
+50 error code ENOSELF
+51 error Refusing to install meteor-import-generator as a dependency of itself
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
