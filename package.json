@@ -1,0 +1,25 @@
+{
+  "name": "meteor-import-generator",
+  "version": "1.0.0",
+  "description": "file generator for meteor",
+  "main": "index.js",
+  "scripts": {
+    "test": "importGenerator('bands.collection.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanFarnworth/meteor-import-generator.git"
+  },
+  "keywords": [
+    "meteor",
+    "import",
+    "require",
+    "path"
+  ],
+  "author": "jordan farnworth bitches",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanFarnworth/meteor-import-generator/issues"
+  },
+  "homepage": "https://github.com/JordanFarnworth/meteor-import-generator#readme"
+}
